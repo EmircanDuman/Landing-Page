@@ -1,0 +1,23 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+.slick-prev::before, .slick-next::before{
+  color: black;
+  font-size: 40px;
+}
+
+.slick-next::before{
+  margin-left: -35px;
+}
+
+.slick-prev{
+  z-index: 10;
+}
+
+#root{
+  font-family: 'Public Sans', sans-serif;
+}
+
+.category-card:hover .arrow-icon{
+  fill:white
+}
